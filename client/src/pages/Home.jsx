@@ -6,8 +6,6 @@ import PostCard from "../components/PostCard";
 import PostCardFeatured from "../components/PostCardFeatured";
 import { FiArrowRight } from "react-icons/fi";
 import { Carousel } from "flowbite-react";
-import BannerResized from "/public/BannerResized.mp4";
-import BannerResizedNight from "/public/BannerResizedNight.mp4";
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -51,23 +49,9 @@ export default function Home() {
       <div>
         <button onClick={handleToggleTheme}></button>
         {isDarkMode ? (
-          <video
-            autoPlay
-            muted
-            loop
-            className="w-full"
-            src={BannerResizedNight}
-            alt="banner"
-          />
+          <img src="dark.jpg" w-full alt="Banner"></img>
         ) : (
-          <video
-            autoPlay
-            muted
-            loop
-            className="w-full"
-            src={BannerResized}
-            alt="banner"
-          />
+          <img src="light.jpg" w-full alt="Banner"></img>
         )}
       </div>
       <div className="absolute inset-x-0 top-5 sm:top-14 md:top-14 lg:top-16 xl:top-24 flex items-center justify-center">
