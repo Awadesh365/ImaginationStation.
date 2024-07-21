@@ -130,10 +130,23 @@ export default function Search() {
               value={sidebarData.category}
               id="category"
             >
-              <option value="uncategorized">Uncategorized</option>
-              <option value="reactjs">React.js</option>
-              <option value="nextjs">Next.js</option>
-              <option value="javascript">JavaScript</option>
+              <option value="uncategorized">Select a category</option>
+              <option value="Deep Dives">Deep Dives</option>
+              <option value="Personal Development">Personal Development</option>
+              <option value="Tech Industry Trends">Tech Industry Trends</option>
+              <option value="Book Reviews & Resources">
+                Book Reviews & Resources
+              </option>
+              <option value="Tech Life Hacks">Tech Life Hacks</option>
+              <option value="Inspiration and Ideas">
+                Inspiration and Ideas
+              </option>
+              <option value="Travel and Exploration">
+                Travel and Exploration
+              </option>
+              <option value=" Wellness and Mindfulness">
+                Wellness and Mindfulness
+              </option>
             </Select>
           </div>
           <Button type="submit" outline gradientDuoTone="purpleToPink">

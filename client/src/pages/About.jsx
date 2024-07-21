@@ -8,8 +8,10 @@ export default function About() {
           </h1>
           <div className="text-md text-gray-500 flex flex-col gap-6">
             <p>
-              Imagination Station is an open-source project created by Awaadesh
-              and it is a community-driven project.
+              Welcome to ImaginationStation, a haven for dreamers, creators, and
+              innovators! This is not just a blog; its a vibrant community where
+              ideas come to life, creativity knows no bounds, and inspiration is
+              around every corner.
             </p>
 
             <p>

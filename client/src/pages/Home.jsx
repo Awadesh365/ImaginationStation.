@@ -75,23 +75,18 @@ export default function Home() {
             About The Author
           </h1>
           <p className="text-center font-semibold py-2">
-            hi i am Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            sequi fugit assumenda quo cum eveniet inventore nemo numquam animi
-            consectetur!
+            With a background in software engineering, I bring a unique
+            perspective to the content I create. My journey has been anything
+            but conventional, filled with twists and turns that have shaped me
+            into the person I am today. Through this blog, I aim to share not
+            just my experiences and insights but also to create a space where
+            others can find their spark of inspiration.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim
-            eaque amet dolor rem, dignissimos libero, inventore consequuntur
-            doloremque dicta officia eligendi ipsa numquam minima placeat
-            quibusdam quod assumenda dolore porro eum. Quaerat corrupti totam,
-            fugiat aliquam voluptates omnis ullam quia ad, repellat, nemo porro
-            alias dolorum accusamus fuga perferendis voluptas! Facilis,
-            cupiditate. Inventore et consequuntur autem. Dolor possimus illo
-            suscipit deleniti facere, alias aliquam laboriosam animi facilis
-            soluta, ea excepturi voluptatum quas doloremque dolores tempora eos!
-            Modi temporibus blanditiis ipsa cumque? Corporis fuga labore ipsa
-            facere ducimus placeat sequi, quaerat tempore consectetur, vitae
-            praesentium eius, voluptas quia consequuntur ipsam!{" "}
+            Thank you for joining me on this journey. I hope that
+            ImaginationStation becomes a source of inspiration and joy for you,
+            just as it has been for me. Let’s embark on this adventure together,
+            and remember—the only limit is your imagination!
           </p>
           <Link
             to="/about"
@@ -99,21 +94,6 @@ export default function Home() {
           >
             Learn more about me and the blog <FiArrowRight />
           </Link>
-        </div>
-
-        <div className="h-[300px] sm:w-[300px] flex justify-center items-center">
-          <Carousel slide={false} className="">
-            <img
-              className="w-[300px] h-auto aspect-square"
-              src="/About.png"
-              alt=""
-            />
-            <img
-              className="w-[300px] h-auto aspect-square"
-              src="/About2.png"
-              alt=""
-            />
-          </Carousel>
         </div>
       </div>
 
