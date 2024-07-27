@@ -2,11 +2,11 @@
   "name": "imaginationstation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon api/index.js",
-    "start": "node api/index.js",
+    "dev": "nodemon api/app.js",
+    "start": "node api/app.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
